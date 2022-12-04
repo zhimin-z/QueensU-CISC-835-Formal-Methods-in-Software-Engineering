@@ -1,0 +1,71 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://www.xfront.com/Alloy/Alloy-part-26-dirty-little-lies-of-the-software-industry.html
+Subject: The Rule of Maximum Practical Formality
+Date: Thu, 27 Oct 2022 18:12:19 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--djoamDHZSdTBqMzRgig5gUhXguJSLnB1FG5eXh8Bvw----"
+
+
+------MultipartBoundary--djoamDHZSdTBqMzRgig5gUhXguJSLnB1FG5eXh8Bvw----
+Content-Type: text/html
+Content-ID: <frame-BB2E37C118C6F1225ED4BCD61F6AF989@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.xfront.com/Alloy/Alloy-part-26-dirty-little-lies-of-the-software-industry.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml" xml:lang=3D"en" lang=3D"en"><head><meta http-equiv=3D"Content-Type" con=
+tent=3D"text/html; charset=3DUTF-8">
+       =20
+        <meta http-equiv=3D"content-language" content=3D"en">
+        <title>The Rule of Maximum Practical Formality</title>
+        <meta name=3D"description" content=3D"Dirty Little Lies of the Soft=
+ware Industry">
+        <meta name=3D"keywords" content=3D"Software, Software Industry, Lie=
+s, formal certification process, model-driven development, Alloy">
+        <meta name=3D"author" content=3D"Roger L. Costello">
+    </head><body data-new-gr-c-s-check-loaded=3D"14.1085.0" data-gr-ext-ins=
+talled=3D"">
+        <div id=3D"formality">
+		    <h1>The Dirty Little Lies of the Software Industry</h1>
+
+            <p>I often hear this: The software we create will be flawless i=
+f:</p>
+
+			<ul>
+				    <li>The development team follows the formal certification process _=
+____ (Fill in the blank with your favorite certification process. For examp=
+le, aerospace companies are required to follow the certification process DO=
+-178C for their software to be approved by the FAA).</li>
+					<li>The development team graphically documents every component, interf=
+ace, connection, input, output, flow, etc., and uses a tool that manages th=
+e diagrams (i.e., model-driven development).</li>
+			</ul>
+
+            <p>Sadly, they are both false. Flawless software does not resul=
+t from following some check-the-box process or from an organized set of dia=
+grams. These might help, to some degree, but they miss the root cause of fl=
+aws in software. The root cause of flaws in software are the pesky little c=
+orner cases that were not considered. In software with many parts, there wi=
+ll be lots of pesky corner cases because the human mind is unable to grappl=
+e with the astronomical number of combinations. To find the pesky corner ca=
+ses, you need to create a model of the software and then use a tool that ca=
+n search through the vast tree of combinations, checking every corner case.=
+ In the typical case, this will involve searching and examining billions of=
+ cases. Obviously, you are not going to write billions of test cases. So, t=
+his analysis needs to be done by a tool. The only tool that I am aware of t=
+hat can do this is the tool created at MIT called Alloy.</p>
+
+        </div>
+   =20
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=
+=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-con=
+tent=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;=
+isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integrati=
+on></html>
+------MultipartBoundary--djoamDHZSdTBqMzRgig5gUhXguJSLnB1FG5eXh8Bvw------

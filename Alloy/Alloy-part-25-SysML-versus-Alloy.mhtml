@@ -1,0 +1,264 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://xfront.com/SysML-versus-Alloy/
+Subject: SysML versus Alloy
+Date: Tue, 25 Oct 2022 22:50:55 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--dcF0IyhHeXo0hvEIvGD9bIpgA0Cu8lbgMMnH5w0GWp----"
+
+
+------MultipartBoundary--dcF0IyhHeXo0hvEIvGD9bIpgA0Cu8lbgMMnH5w0GWp----
+Content-Type: text/html
+Content-ID: <frame-92EA87EB46DA98AE0C14941BC3BCB2AA@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://xfront.com/SysML-versus-Alloy/
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml" xml:lang=3D"en" lang=3D"en"><head><meta http-equiv=3D"Content-Type" con=
+tent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/c=
+ss" href=3D"cid:css-3c97e4a0-2608-4b57-804c-e5a7c4cf1682@mhtml.blink" />
+       =20
+        <meta http-equiv=3D"content-language" content=3D"en">
+        <title>SysML versus Alloy</title>
+        <meta name=3D"description" content=3D"Comparison of the modeling la=
+nguages SysML and Alloy">
+        <meta name=3D"keywords" content=3D"SysML, Alloy, comparison">
+        <meta name=3D"author" content=3D"Roger L. Costello">
+       =20
+       =20
+    </head>
+    <body data-new-gr-c-s-check-loaded=3D"14.1085.0" data-gr-ext-installed=
+=3D"">
+        <div id=3D"wrapper">
+            <div id=3D"masthead">
+                <h1><a href=3D"https://en.wikipedia.org/wiki/Systems_Modeli=
+ng_Language">SysML</a> versus <a href=3D"https://en.wikipedia.org/wiki/Allo=
+y_(specification_language)">Alloy</a></h1>
+            </div>
+            <div id=3D"content">
+                <table id=3D"playlist1" width=3D"50%" summary=3D"Comparison=
+ of the modeling languages SysML and Alloy">
+                    <thead>
+                        <tr>
+                            <th scope=3D"col">SysML</th>
+                            <th scope=3D"col">Alloy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td valign=3D"top">Graphical modeling language.=
+</td>
+                            <td valign=3D"top">Text modeling language.</td>
+                        </tr>
+                        <tr class=3D"alt">
+                            <td valign=3D"top">Can export models as text <a=
+ href=3D"https://en.wikipedia.org/wiki/XML_Metadata_Interchange">XMI</a>.</=
+td>
+                            <td valign=3D"top">Can display models graphical=
+ly.</td>
+                        </tr>
+                        <tr>
+                            <td valign=3D"top">Define all the artifacts of =
+a system, including ConOps, requirements specification, requirements tracea=
+bility and verification matrices, interface definition documents (IDDs), et=
+c.</td>
+                            <td valign=3D"top">Model the parts of the syste=
+m that are particularly tricky or critical. The <a href=3D"http://www.cs.cm=
+u.edu/~wing/publications/JacksonWing96.pdf">Principle of Partiality</a> say=
+s that Alloy models should be created for those parts of a problem that mer=
+it the cost of formalization.</td>
+                        </tr>
+                        <tr class=3D"alt">
+                            <td valign=3D"top">The purpose of SysML is to c=
+reate diagrams to communicate with your stakeholders.</td>
+                            <td valign=3D"top">The purpose of Alloy is to d=
+escribe a problem's concepts and  relationships and then analyze them to se=
+e if there are problems with how you're thinking about the problem.</td>
+                        </tr>
+                        <tr>
+                            <td valign=3D"top">SysML parametric diagrams ca=
+n be used to express constraints; constraints take the form of mathematical=
+ models. "[Parametric diagrams] is an advanced  modeling practice; it requi=
+res a high degree of fidelity in your system model, something that has an a=
+ssociated cost." (from the book <a href=3D"https://www.amazon.com/SysML-Dis=
+tilled-Systems-Modeling-Language/dp/0321927869/ref=3Dsr_1_1?s=3Dbooks&amp;i=
+e=3DUTF8&amp;qid=3D1524398162&amp;sr=3D1-1&amp;keywords=3DSysML+Distilled">=
+SysML Distilled</a>, p. 179)</td>
+                            <td valign=3D"top">Expressing constraints is ba=
+sic in Alloy; expressing constraints is definitely not an "advanced" featur=
+e. The constraints are on sets, not mathematical equations.</td>
+                        </tr>
+                        <tr class=3D"alt">
+                            <td valign=3D"top">Supports the object paradigm=
+.</td>
+                            <td valign=3D"top">Alloy is idiom-agnostic. It =
+supports the object paradigm, time paradigm, event paradigm, constraint par=
+adigm, logic paradigm, declarative paradigm, etc.</td>
+                        </tr>
+                        <tr>
+                            <td valign=3D"top">Does not support analysis an=
+d reasoning of the models created using it.</td>
+                            <td valign=3D"top">Supports fully automated ana=
+lysis of Alloy models. Alloy can analyze a model and identify problems in t=
+he design.</td>
+                        </tr>
+                        <tr class=3D"alt">
+                            <td valign=3D"top">No formal underpinning. <spa=
+n style=3D"font-style: italic">A consequence of this is that understanding =
+of models can be more apparent than real. In some cases developers can wast=
+e considerable time resolving disputes over usage and interpretation of not=
+ations.</span> [<a href=3D"https://arxiv.org/ftp/arxiv/papers/1409/1409.691=
+9.pdf">Evans et al</a>]</td>
+                            <td valign=3D"top">Strong formal underpinning. =
+The foundation of Alloy is sets and set operations (join, union, intersecti=
+on, difference, closure, etc.). The theory of sets has been thoroughly work=
+ed out by mathematicians, which means that Alloy has a really strong founda=
+tion.</td>
+                        </tr>
+                        <tr>
+                            <td valign=3D"top">Traditional testing process,=
+ i.e., limited testing of the model.</td>
+                            <td valign=3D"top">Automated, complete testing =
+of the model, within a bound.</td>
+                        </tr>
+                        <tr class=3D"alt">
+                            <td valign=3D"top">Static list of definitions. =
+No data structure that you can navigate through or operate on.</td>
+                            <td valign=3D"top">The Alloy Evaluate interface=
+ allows you to enter expressions and explore the model by navigating throug=
+h a model's structures (signatures and fields). The expressions can perform=
+ joins, filtering, merging, ordering, etc.</td>
+                        </tr>
+                        <tr>
+                            <td valign=3D"top">Cannot determine the equival=
+ence of two different models.</td>
+                            <td valign=3D"top">Can create two different mod=
+els and then use the Alloy Analyzer to determine if the models are equivale=
+nt (i.e., if their instances are the same).</td>
+                        </tr>
+                        <tr class=3D"alt">
+                            <td valign=3D"top">Constraints are expressed as=
+ mathematical relationships (an equation or inequality).</td>
+                            <td valign=3D"top">Constraints are expressed as=
+ set relationships (join, union, intersection, closure, etc).</td>
+                        </tr>
+                        <tr>
+                            <td valign=3D"top">Can be used for mathematical=
+ modeling, but rarely used for this as there are much better tools (such as=
+ <a href=3D"https://www.mathworks.com/solutions/mathematical-modeling.html"=
+>MATLAB and Simulink</a>) for such things.</td>
+                            <td valign=3D"top">Not intended for mathematica=
+l modeling, limited math support.</td>
+                        </tr>
+                    </tbody>
+                </table>
+               =20
+                <br>
+               =20
+                <p>
+                    I understand the appeal of SysML: every component, inte=
+rface, connection, and flow is digitally
+                    documented and the SysML tool keeps them all consistent=
+. That naturally leads to to the impression that
+                    the implementation will be correct. However, that is a =
+false impression. It is not organization that produces correctness.
+                    It is finding pesky corner cases that you hadn't consid=
+ered which produces correctness. In a system with many parts, there will be=
+ lots
+                    of pesky corner cases because the human mind is unable =
+to grapple with the complexity. To find the corner
+                    cases, you need a modeling language with a tool that ca=
+n search through a vast tree, looking for the corner cases.=20
+                    SysML does not provide this. Alloy does.
+                </p>
+            </div>
+
+            <div id=3D"footer">
+                <br><br>
+                <p>Roger L. Costello, May 7, 2018</p>
+            </div>
+        </div>
+   =20
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=
+=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-con=
+tent=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;=
+isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integrati=
+on></html>
+------MultipartBoundary--dcF0IyhHeXo0hvEIvGD9bIpgA0Cu8lbgMMnH5w0GWp----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3c97e4a0-2608-4b57-804c-e5a7c4cf1682@mhtml.blink
+
+@charset "utf-8";
+
+@import url("css/basic.css");
+------MultipartBoundary--dcF0IyhHeXo0hvEIvGD9bIpgA0Cu8lbgMMnH5w0GWp----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://xfront.com/SysML-versus-Alloy/css/basic.css
+
+@charset "utf-8";
+
+* { padding: 0px; margin: 0px; }
+
+html { font-size: 100%; }
+
+body { font: 62.5% / 1.5 "Lucida Grande", "Lucida Sans Unicode", Arial, Hel=
+vetica, sans-serif; padding: 20px; }
+
+table { border-collapse: collapse; }
+
+th, td { border: 1px solid rgb(201, 201, 201); font-size: 1.1em; padding: 1=
+px 4px; }
+
+caption { font-weight: bold; font-size: 1.3em; text-transform: uppercase; p=
+adding: 0px 0px 5px; }
+
+th { background: url("../images/table-header-stripe.gif") 0px 50% repeat-x;=
+ text-align: left; }
+
+tfoot { background-color: rgb(221, 221, 221); color: rgb(85, 85, 85); }
+
+tfoot td { font-size: 1em; text-align: center; }
+
+tbody tr.alt td { background: rgb(231, 237, 246); }
+
+tbody tr:hover td, tbody tr.over td { background: rgb(83, 137, 215); color:=
+ rgb(255, 255, 255); }
+
+tbody td { border-top: 0px; border-bottom: 0px; }
+------MultipartBoundary--dcF0IyhHeXo0hvEIvGD9bIpgA0Cu8lbgMMnH5w0GWp----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://xfront.com/SysML-versus-Alloy/images/table-header-stripe.gif
+
+R0lGODlhOwAoAOYAAP39/evr6/z8/PDv7/Dw7+zr6/7+/vPz8+/w7/T19fX19fX09e/v8PT09Ovr
+7PT19Pf29vT09evs6/Dv8Pn6+vLx8u3u7e7t7ff49+vs7Pz8+/X09Pb29vX19Pr5+vPz8vn5+vb3
+9vLy8/z7/PLy8e/w8Ozs6/3+/f3+/vHy8vDw8Pr5+fb29/38/fn5+f79/fr6+fPy8vLz8vb39+7t
+7vj39/f3+Ozr7P7+/fz9/fv8/Ozt7P79/vf39u3t7u3u7vn6+f39/vPy8/v8+/f29/Hy8fLz8/j3
++P39/Ozs7e7u7e3s7Pj49/z8/erq6fLx8e3s7fHx8u7u7v38/Pv7/Onq6uzs7Pr6+u/v7+3t7fLy
+8vf39+rq6v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAAA7ACgAAAf/gF2Cg4SFhoeIiYqLjI2Oj5CRkpOUlYUGJ5goKAY8PCg4BjgABi9B
+mQZBBigvoZw8J66qqC+rLyewt6WYOKafBqICAjrEwhrGwsjJIwIjQwIaI8zHwsw6GlTK0BrR0kPH
+OtBDIzoUHiswQBQgVy4rFFfoK+4eHutX7B4u9R4w7BTqXFBI56LgFX9ArsADAWKFQngCV9jYQrEi
+RQwYalCcuIXjliMdt2CwKNLiSJAWPXokuaVGgwQRFizY8EBBgwUJEjzY0EFBB5gREuC8uUCBzAcd
+Huw0arRBhA0NOhRt0OBBgg5PFSSIGqGnFi0VvpL4miLsVy0pzqpdC7aIWLcV/yqkZfv1SdixZudq
+GUAACwEEWBD8ZaBiAt8JDAgMECyYr18VfgljGYClMgECDEqoGDABQecJlbFkxqKCAGLOF7JcsJCl
+tRLWrVunpqE6C2zWqWW3tsD6hxTasWPnzuKjNY0fwWk4CFAggwMJJgpICED9Robr0gvcCCAhA/Xm
+y6mbWO59OnTxBcRzz+7AQXTpDrjIn0+/vv37+PPrp+9ge/sC7gXgHXXdMaedA+lFFwB55DFHYHhW
+SKBdAdJRF0CE2pmwoHc3wBabBcDZhltxxsmWGnI+IOdhibXlRqJtuwmnRGuliVZCCQgUNkAJAzDQ
+GQOTEQZYCZ0NwFlmBJRgGv8DgC2GAGV9iUZZj36BptiOCJxFwlxlkWDWV3Fp4SVbY60VhZZnpfXl
+XGV+5dZXDyzQwQZG0RkBUl3ZlIACQVUVlE0KKEATTFsp9RJOQnG1wQIP3LnUTU7tuQFFNWhkEUgj
+scTSSiVVpFGmnmbUaUkjMUHRfvM5geqq+FWhnxVW7ABrrLAuAesOUFiRxKy08urrrLbCuuussv5q
+rBWhJVsZkMo2axkWoClLWbPTSpssA0wGFoMIB4jArREiaPHBtuIe0K0QWph7gAzcsnuAEAcY8YEM
+Hxwwbwzj4svuB/y+a0QM6gIsgwwHEDFDCD0QwQIEM3AQAgccQABBDw43DAGCERGz0PAMEy8MQQgh
+QLDFxAdDwAELGo/s8RYQO8wCyCxcoZDMNNd8hQcH2ayzzfbIzI5DMsNQM847s3MFAADkgPTSSCDR
+AgBILJ000k9LDcDTOeRQdRNLV4211C3kMMXVVgNgydlop6322my37fbbcMct99x012333Xjnrffe
+fCMSCAA7
+
+------MultipartBoundary--dcF0IyhHeXo0hvEIvGD9bIpgA0Cu8lbgMMnH5w0GWp------

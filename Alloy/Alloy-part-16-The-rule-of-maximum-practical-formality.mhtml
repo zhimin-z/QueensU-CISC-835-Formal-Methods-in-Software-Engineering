@@ -1,0 +1,63 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://www.xfront.com/Alloy/Alloy-part-16-rule-of-maximum-formality.html
+Subject: The Rule of Maximum Practical Formality
+Date: Tue, 25 Oct 2022 22:50:49 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--vFoajEiZaGEhJWRftecKWgavSBwf2Dd6BPQkD0FvtQ----"
+
+
+------MultipartBoundary--vFoajEiZaGEhJWRftecKWgavSBwf2Dd6BPQkD0FvtQ----
+Content-Type: text/html
+Content-ID: <frame-69043C7A02EAFA85EF84A7982FE0BF8D@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.xfront.com/Alloy/Alloy-part-16-rule-of-maximum-formality.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml" xml:lang=3D"en" lang=3D"en"><head><meta http-equiv=3D"Content-Type" con=
+tent=3D"text/html; charset=3DUTF-8">
+       =20
+        <meta http-equiv=3D"content-language" content=3D"en">
+        <title>The Rule of Maximum Practical Formality</title>
+        <meta name=3D"description" content=3D"At each step of a development=
+ use descriptions that are as formal as possible">
+        <meta name=3D"keywords" content=3D"Development, Requirements, Forma=
+lity, Code, Specification, Alloy">
+        <meta name=3D"author" content=3D"Roger L. Costello">
+    </head><body data-new-gr-c-s-check-loaded=3D"14.1085.0" data-gr-ext-ins=
+talled=3D"">
+        <div id=3D"formality">
+		    <h1>The Rule of Maximum Practical Formality</h1>
+
+            <p>At each step of a development, use descriptions that are as =
+formal as possible.</p>
+
+            <p>
+			    This has two benefits:
+				</p><ol>
+				    <li>Formal descriptions are more precise than informal ones, which =
+forces a thorough understanding of the issues and questions.</li>
+					<li>More powerful verification methods for formal descriptions exist t=
+han methods for informal ones, so there is more confidence in each step=E2=
+=80=99s correctness.</li>
+				</ol>
+			<p></p>
+
+            <p>The rule of maximum practical formality was articulated in t=
+he paper <a href=3D"http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=3D9=
+76937">Correctness by Construction: Developing a Commercial Secure System</=
+a> (see the top of page 21 and the bottom of page 19)</p>
+
+        </div>
+   =20
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=
+=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-con=
+tent=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;=
+isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integrati=
+on></html>
+------MultipartBoundary--vFoajEiZaGEhJWRftecKWgavSBwf2Dd6BPQkD0FvtQ------
